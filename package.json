@@ -4,13 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "npx mocha 'test/**/*.js'"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "assert": "^2.1.0",
     "chai": "^5.1.1",
     "mocha": "^10.7.0",
     "selenium-webdriver": "^4.23.0"
