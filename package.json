@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node --loader ts-node/esm --experimental-specifier-resolution=node ./node_modules/mocha/bin/mocha \"test/**/*.mjs\""
+    "test": "npx mocha "test/**/*.js""
 
   },
   "keywords": [],
